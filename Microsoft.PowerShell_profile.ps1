@@ -49,6 +49,18 @@ function Update-Packages {
 	Write-Host "Step 3: 更新 Chocolatey" -ForegroundColor Magenta -BackgroundColor Cyan
 	choco outdated
 }
+# 让powershel也可以使用touch命令
+function touch {
+    Param(
+          [Parameter(Mandatory=$true)]
+          [string]$Path
+    )
+    if (Test-Path -LiteralPath $Path) {
+        (Get-Item -Path $Path).LastWriteTime = Get-Date
+    } else {
+        New-Item -Type File -Path $Path
+    }
+}
 #------------------ Functions END  --------------
 
 #------------------ Set Alias BEGIN --------------
