@@ -4,6 +4,7 @@ Import-Module PSReadLine
 Import-Module DirColors
 #posh-git插件，让 git 更好用
 Import-Module posh-git
+#引入oh-my-posh，让powershell 更漂亮
 Import-Module oh-my-posh
 Import-Module git-aliases -DisableNameChecking
 #设置 PowerShell 主题
