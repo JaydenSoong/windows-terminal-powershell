@@ -28,7 +28,7 @@
             //"icon": "C:\\Users\\DustinWinFiles\\Pictures\\Java.png", // 图标，建议每一类在list中单独设置
             //"tabTitle": "XXX", //自定义选项卡标题,设置了所有的tab页都会是这个名字
             "suppressApplicationTitle": true, //禁止shell更改标题
-            "fontFace": "MesloLGMDZ Nerd Font Mono", //https://www.nerdfonts.com/font-downloads,可以下载各种 nerd 字体
+            "fontFace": "MesloLGM NF", //https://www.nerdfonts.com/font-downloads,可以下载各种 nerd 字体,windows 系统安装下载文件中带 windows compatible 的字体
             "fontSize": 12, //字体大小
             "fontWeight": "normal", // 字体粗细
             "padding": "8, 8, 8, 8", // 填充（内容距离界面的内部距离）
