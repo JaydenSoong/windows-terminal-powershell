@@ -28,7 +28,8 @@
             //"icon": "C:\\Users\\DustinWinFiles\\Pictures\\Java.png", // 图标，建议每一类在list中单独设置
             //"tabTitle": "XXX", //自定义选项卡标题,设置了所有的tab页都会是这个名字
             "suppressApplicationTitle": true, //禁止shell更改标题
-            "fontFace": "SauceCodePro NF", //在widows
+            // "fontFace": "SauceCodePro NF", //在widows
+            "fontFace": "MesloLGMDZ Nerd Font Mono", //在widows
             //terminal中使用这种字体对各种图标支持很好。该字体可以在 scoop
             //中安装，使用命令为 sudo scoop install SourceCodePro-NF
             "fontSize": 12, //字体大小
