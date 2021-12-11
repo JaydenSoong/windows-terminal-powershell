@@ -13,9 +13,20 @@
     
     Install-Module DirColors
     Install-Module git-aliases
+    
 2. 配置 powershell
     在 power shell 中输入如下命令
     vim $PROFILE
     输入"Microsoft.PowerShell_profile.ps1"文件中的内容
 
     > 参考网址：https://zhuanlan.zhihu.com/p/137595941
+
+3. 配置 oh-my-posh 主题
+
+   * 在命令行中查看所有的主题：Get-PoshThemes
+
+   * 在"Microsoft.PowerShell_profile.ps1"中配置主题比如：
+
+     #设置 PowerShell 主题                                                                                      
+
+     Set-PoshPrompt -Theme robbyrussel 
